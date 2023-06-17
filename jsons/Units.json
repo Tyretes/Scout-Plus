@@ -1,0 +1,42 @@
+[
+
+  {
+	    "name": "Scout",
+    	"unitType": "Scout",
+	    "movement": 2,
+	    "strength": 5,
+	    "cost": 25,
+      "upgradesTo": "Mounted Scout",
+	    "obsoleteTech": "Rifling",
+	    "uniques": ["May upgrade to [Mounted Scout] through ruins-like effects", "Never appears as a Barbarian unit"],
+    	"promotions": ["Ignore terrain cost"],
+    	"attackSound": "nonmetalhit",
+  },
+  {
+      "name": "Mounted Scout",
+      "unitType": "Scout",
+      "movement": 3,
+      "strength": 11,
+      "cost": 52,
+      "upgradesTo": "Rangers",
+      "requiredTech": "Horseback Riding",
+      "obsoleteTech": "Rifling",
+      "requiredResource": "Horses",
+      "attackSound": "nonmetalhit",
+      "uniques": ["Never appears as a barbarian unit"],
+      "promotions": ["Ignore terrain cost"],
+  },
+  {
+      "name": "Rangers",
+      "unitType": "Scout",
+      "movement": 2,
+      "strength": 26,
+      "cost": 195,
+      "requiredTech": "Rifling",
+      "attackSound": "shot",
+      "uniques": ["Never appears as a barbarian unit"],
+      "promotions": ["Ignore terrain cost"],
+  }
+
+
+]
